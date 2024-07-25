@@ -3,9 +3,12 @@ body{
 } 
  /* header style start */
  header{
+    padding:60px ;
     height: 500px;
-    /* background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%); */
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+    background-color: rgb(17, 17, 17)rgba(119, 119, 119, 0); 
     margin:auto;
+    height: 730px;
 }
 .button-webname{
     display:flex;
@@ -13,7 +16,6 @@ body{
     height: 50px;
     width: 1060px;
     margin: 0 auto;
-    margin-top: 60px;
     font-size: 36px;
     color: rgb(230, 83, 60);
     align-items: center;
@@ -46,17 +48,61 @@ body{
     font-size: 78px;
     height: 245px;
     width: 520px;
-    margin: 100px auto auto 320px;
+    margin: 100px auto 0 260px;
 }
 .desc{
     height: 245px;
     width: 520px;
-    margin: 50px auto auto 320px;
-
+    margin: 50px auto 0 260px;
 }
 .title1>span{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.desc-bt{
+    height: 60px;
+    width: 465px;
+}
+.desc-bt{
+    margin: 0 260px;
+}
+.desc-button{
+    padding: 16px 40px;
+    font-size: 18px;
+    height:55px ;
+    width:225px;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 42px;
+}
+.bt{
+    display: flex;
+}
+.vt{
+    height: 96px;
+    width: 206px;
+    background-color: rgba(48, 48, 48, 0.54);
+    color: rgba(239, 237, 232, 0.65);
+    font-weight: 400;
+    border: 1px;
+    border-radius: 12px;
+}
+.vt>span{
+    font-size: 25px;
+    font-weight: 900;
+    color: white;
+}
+.vtt{
+    height: 100px;
+    width: 195px;
+}
+.vtt>span{
+    font-size: 40px;
+    font-weight: 1100;
 
+}
+.tt{
+    display: flex;
 }
 
 
