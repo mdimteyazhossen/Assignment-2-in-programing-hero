@@ -1,0 +1,64 @@
+body{
+    /* background-color: black; */
+} 
+ /* header style start */
+ header{
+    height: 500px;
+    /* background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%); */
+    margin:auto;
+}
+.button-webname{
+    display:flex;
+    justify-content: space-between;
+    height: 50px;
+    width: 1060px;
+    margin: 0 auto;
+    margin-top: 60px;
+    font-size: 36px;
+    color: rgb(230, 83, 60);
+    align-items: center;
+}
+.home{
+    background-color: rgb(230, 83, 60);
+    color: white;
+}
+.bgc{
+    background-color:black;
+    color: white;
+}
+.button{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    width: 470px;
+    border: 3px;
+    border-radius: 40px;  
+    background-color: black;
+}
+.button>button{
+    width: 95px;
+    font-size: 18px;
+    border: 1px;
+    border-radius: 40px;
+}
+/* title and background design start */
+.title1{
+    font-size: 78px;
+    height: 245px;
+    width: 520px;
+    margin: 100px auto auto 320px;
+}
+.desc{
+    height: 245px;
+    width: 520px;
+    margin: 50px auto auto 320px;
+
+}
+.title1>span{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+
+ /* header style end  */
+ 
